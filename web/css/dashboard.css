@@ -1,0 +1,274 @@
+/**
+ * Dashboard Styles
+ *
+ * Custom styles for the Expense Manager dashboard.
+ * Complements the main site.css with dashboard-specific rules.
+ *
+ * @author Your Name
+ * @since 1.0.0
+ */
+
+/* ============================================================== */
+/* Dashboard Layout                                               */
+/* ============================================================== */
+
+.dashboard-header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--em-gray-200);
+}
+
+.dashboard-section {
+    padding-top: 0.5rem;
+}
+
+.dashboard-section h2 {
+    color: var(--em-gray-800);
+    font-weight: 600;
+}
+
+/* ============================================================== */
+/* Stat Cards                                                     */
+/* ============================================================== */
+
+.stat-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--em-shadow-md);
+}
+
+.stat-card .stat-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--em-radius-lg);
+    font-size: 1.5rem;
+}
+
+.stat-card .stat-icon.income {
+    background-color: var(--em-success-light);
+    color: var(--em-success);
+}
+
+.stat-card .stat-icon.expense {
+    background-color: var(--em-danger-light);
+    color: var(--em-danger);
+}
+
+.stat-card .stat-icon.balance {
+    background-color: var(--em-primary-light);
+    color: var(--em-primary);
+}
+
+.stat-card .stat-value {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-card .stat-label {
+    font-size: 0.875rem;
+    color: var(--em-gray-500);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.stat-card .stat-change {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.stat-card .stat-change.positive {
+    color: var(--em-success);
+}
+
+.stat-card .stat-change.negative {
+    color: var(--em-danger);
+}
+
+/* ============================================================== */
+/* Chart Containers                                               */
+/* ============================================================== */
+
+.chart-container {
+    position: relative;
+    width: 100%;
+}
+
+/* ApexCharts overrides */
+.apexcharts-canvas {
+    margin: 0 auto;
+}
+
+.apexcharts-tooltip {
+    border-radius: var(--em-radius) !important;
+    box-shadow: var(--em-shadow-lg) !important;
+}
+
+.apexcharts-tooltip-title {
+    background: var(--em-gray-100) !important;
+    border-bottom: 1px solid var(--em-gray-200) !important;
+}
+
+.apexcharts-xaxistooltip,
+.apexcharts-yaxistooltip {
+    border-radius: var(--em-radius) !important;
+}
+
+/* ============================================================== */
+/* Card Enhancements                                              */
+/* ============================================================== */
+
+.dashboard-section .card {
+    border: none;
+    box-shadow: var(--em-shadow);
+    transition: box-shadow 0.2s ease;
+}
+
+.dashboard-section .card:hover {
+    box-shadow: var(--em-shadow-md);
+}
+
+.dashboard-section .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid var(--em-gray-100);
+    padding: 1rem 1.25rem;
+}
+
+.dashboard-section .card-title {
+    font-weight: 600;
+    color: var(--em-gray-800);
+    margin-bottom: 0;
+}
+
+/* ============================================================== */
+/* Trend Indicators                                               */
+/* ============================================================== */
+
+.trend-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--em-radius);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.trend-indicator.up {
+    background-color: var(--em-success-light);
+    color: var(--em-success);
+}
+
+.trend-indicator.down {
+    background-color: var(--em-danger-light);
+    color: var(--em-danger);
+}
+
+.trend-indicator.neutral {
+    background-color: var(--em-gray-100);
+    color: var(--em-gray-600);
+}
+
+/* ============================================================== */
+/* Period Selector                                                */
+/* ============================================================== */
+
+.period-selector {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.period-selector .btn {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+.period-selector .btn.active {
+    background-color: var(--em-primary);
+    border-color: var(--em-primary);
+    color: white;
+}
+
+/* ============================================================== */
+/* Empty State                                                    */
+/* ============================================================== */
+
+.dashboard-empty-state {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    color: var(--em-gray-500);
+}
+
+.dashboard-empty-state svg {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.dashboard-empty-state p {
+    margin-bottom: 1rem;
+}
+
+/* ============================================================== */
+/* Loading State                                                  */
+/* ============================================================== */
+
+.chart-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.chart-loading .spinner-border {
+    width: 2rem;
+    height: 2rem;
+    color: var(--em-primary);
+}
+
+/* ============================================================== */
+/* Responsive Adjustments                                         */
+/* ============================================================== */
+
+@media (max-width: 767.98px) {
+    .dashboard-header {
+        text-align: center;
+    }
+
+    .dashboard-header .text-md-end {
+        text-align: center !important;
+        margin-top: 0.5rem;
+    }
+
+    .stat-card .stat-value {
+        font-size: 1.5rem;
+    }
+
+    .period-selector {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* ============================================================== */
+/* Print Styles                                                   */
+/* ============================================================== */
+
+@media print {
+    .dashboard-section .card {
+        box-shadow: none;
+        border: 1px solid var(--em-gray-200);
+    }
+
+    .period-selector,
+    .btn-group {
+        display: none;
+    }
+}
