@@ -10,17 +10,20 @@
 
 <p align="center">
   <a href="https://github.com/mohsin-rafique/expense-manager/releases">
-    <img src="https://img.shields.io/github/v/release/mohsin-rafique/expense-manager?style=flat-square&v=1" alt="Latest Release" />
+    <img src="https://img.shields.io/github/v/release/mohsin-rafique/expense-manager?style=flat-square" alt="Latest Release" />
   </a>
   <a href="https://github.com/mohsin-rafique/expense-manager/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" />
   </a>
   <a href="https://github.com/mohsin-rafique/expense-manager/stargazers">
-    <img src="https://img.shields.io/github/stars/mohsin-rafique/expense-manager?style=flat-square&v=1" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/mohsin-rafique/expense-manager?style=flat-square" alt="Stars" />
   </a>
   <a href="https://github.com/mohsin-rafique/expense-manager/issues">
-    <img src="https://img.shields.io/github/issues/mohsin-rafique/expense-manager?style=flat-square&v=1" alt="Issues" />
+    <img src="https://img.shields.io/github/issues/mohsin-rafique/expense-manager?style=flat-square" alt="Issues" />
   </a>
+  <img src="https://img.shields.io/badge/PHP-8.1+-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP Version" />
+  <img src="https://img.shields.io/badge/Yii2-Framework-00A550?style=flat-square" alt="Yii2" />
+  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
 </p>
 
 <p align="center">
@@ -41,6 +44,14 @@
 **Expense Manager** is a free, open-source personal finance application designed to help individuals and small businesses track income and expenses, organize transactions into categories, and gain meaningful insights into their financial activities.
 
 Built on the robust **Yii2 PHP framework** with **Bootstrap 5**, it offers a clean, modern interface with powerful features — all while remaining lightweight and easy to self-host.
+
+### Why Expense Manager?
+
+-   🆓 **100% Free & Open Source** — No hidden costs, no subscriptions
+-   🔒 **Self-Hosted** — Your financial data stays on your server
+-   🚀 **Lightweight** — Runs on minimal server resources
+-   🎨 **Modern UI** — Clean Bootstrap 5 design with dark/light themes
+-   📱 **Responsive** — Works on desktop, tablet, and mobile
 
 ---
 
@@ -104,12 +115,37 @@ Built on the robust **Yii2 PHP framework** with **Bootstrap 5**, it offers a cle
 
 <p align="center">
   <img src="docs/screenshots/dashboard.png" alt="Dashboard" width="100%" />
+  <br><em>Dashboard — Financial overview at a glance</em>
+</p>
+
+<p align="center">
   <img src="docs/screenshots/income-category.png" alt="Income Categories" width="100%" />
+  <br><em>Income Categories — Organize your income sources</em>
+</p>
+
+<p align="center">
   <img src="docs/screenshots/income.png" alt="Income" width="100%" />
+  <br><em>Income — Track all your earnings</em>
+</p>
+
+<p align="center">
   <img src="docs/screenshots/expense-category-grid.png" alt="Expense Category Grid View" width="100%" />
+  <br><em>Expense Categories — Grid view</em>
+</p>
+
+<p align="center">
   <img src="docs/screenshots/expense-category-tree.png" alt="Expense Category Tree View" width="100%" />
+  <br><em>Expense Categories — Hierarchical tree view</em>
+</p>
+
+<p align="center">
   <img src="docs/screenshots/expenses.png" alt="Expenses" width="100%" />
+  <br><em>Expenses — Detailed expense tracking</em>
+</p>
+
+<p align="center">
   <img src="docs/screenshots/profile.png" alt="Profile" width="100%" />
+  <br><em>Profile — User settings and preferences</em>
 </p>
 
 ---
@@ -259,7 +295,7 @@ server {
     location ~ \.php$ {
         include fastcgi_params;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-        fastcgi_pass unix:/var/run/php/php8.0-fpm.sock;
+        fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
     }
 
     location ~ /\.(ht|git) {
@@ -446,9 +482,12 @@ If this project helps you, consider supporting its development:
   </a>
 </p>
 
-<p align="center">
-  <sub>Your support helps me maintain and improve this project. Thank you! 🙏</sub>
-</p>
+### Other Ways to Support
+
+-   ⭐ **Star** this repository
+-   🐛 **Report bugs** and suggest features
+-   📖 **Improve documentation**
+-   📢 **Share** with others who might find it useful
 
 ---
 
@@ -488,9 +527,9 @@ copies or substantial portions of the Software.
 
 ## Acknowledgments
 
--   [Yii Framework](https://www.yiiframework.com/) - The fast, secure, and professional PHP framework
--   [Bootstrap](https://getbootstrap.com/) - The world's most popular front-end toolkit
--   [Bootstrap Icons](https://icons.getbootstrap.com/) - Free, high-quality icons
+-   [Yii Framework](https://www.yiiframework.com/) — The fast, secure, and professional PHP framework
+-   [Bootstrap](https://getbootstrap.com/) — The world's most popular front-end toolkit
+-   [Bootstrap Icons](https://icons.getbootstrap.com/) — Free, high-quality icons
 -   All [contributors](https://github.com/mohsin-rafique/expense-manager/graphs/contributors) who help improve this project
 
 ---
@@ -517,7 +556,7 @@ copies or substantial portions of the Software.
 ---
 
 <p align="center">
-  <sub>⭐ Star this repository if you find it useful!</sub>
+  ⭐ Star this repository if you find it useful!
 </p>
 
 <p align="center">
